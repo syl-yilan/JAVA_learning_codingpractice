@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo3</title>
+    <style>
+        body{
+        background: url("1.jpg");}
+        .center{
+        background: white;
+        width: 400px;
+        text-align: center;
+        margin: auto;}
+    </style>
+</head>
+<body>
+<!--图标-->
+<div>
+    用户注册
+</div>
+<!--注册信息-->
+<div class="center">
+    <div>注册详情</div>
+    <hr/>
+    <form action="#" mehtod="post" autocomplete=“off">
+        <div>
+            <label for="username">姓名:</label>
+            <input type="text" id="username" name="username" value="" placeholder="请在此处输入用户名" required/>
+            <br/>
+            <label for="password">密码:</label>
+            <input type="password" id="password" name="password" value="" placeholder="请在此处输入密码" required/>
+            <br/>
+            <label for="email">邮箱:</label>
+            <input type="email" id="email" name="email" placeholder="请在此处输入邮箱" required/>
+            <br/>
+            <label type="tel">电话:</label>
+            <input type="tel" id="tel" name="tel" placeholder="请在此处输入电话" required/>
+            <hr/>
+
+            <label for="gender">性别:</label>
+            <input type="radio" name="gender" id="gender"value="male"/>男
+            <input type="radio" name="gender" value="female"/>女
+            <br/>
+            <label for="hobby">爱好:</label>
+            <input type="checkbox" id="hobby" name="hobby" value="film"/>看电影
+            <input type="checkbox" name="hobby" value="code"/>敲代码
+            <input type="checkbox" name="hobby" value="game"/>玩游戏
+            <br/>
+            <label for="birthday">出生日期:</label>
+            <input type="date" id="birthday" />
+            <br/>
+            <label for="city">所在城市:</label>
+            <select name="city" id="city">
+                <option>选择城市:</option>
+                <optgroup label="直辖市">
+                    <option>北京</option>
+                    <option>上海</option>
+                    <option>天津</option>
+                    <option>重庆</option>
+                </optgroup>
+            </select>
+            <br/>
+            <label for="avantar">个性签名:</label>
+            <textarea id="avantar" name="avantar" rows="5" cols="20"></textarea>
+
+        </div>
+
+        <br/>
+
+
+        <button type="submit">提交</button>
+        <button type="reset">重置</button>
+    </form>
+</div>
+
+
+</body>
+</html>
