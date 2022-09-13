@@ -1,0 +1,12 @@
+.top{
+background: black;
+line-height: 40px;
+text-align: right;
+font-size: 20px;
+}
+
+a{
+text-decoration: none;}
+
+a:link{color: black;}
+a:hover{color: red;}
